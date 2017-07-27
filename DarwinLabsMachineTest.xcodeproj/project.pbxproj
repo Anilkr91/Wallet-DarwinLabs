@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EA744321F2633EB007B3768 /* DLUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA744311F2633EB007B3768 /* DLUser.swift */; };
+		9EA744341F26355B007B3768 /* DLLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA744331F26355B007B3768 /* DLLogin.swift */; };
+		9EA744361F2668C6007B3768 /* CreateWalletService+POST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA744351F2668C6007B3768 /* CreateWalletService+POST.swift */; };
+		9EA744381F266D7B007B3768 /* Login+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA744371F266D7B007B3768 /* Login+Helpers.swift */; };
+		9EA7443A1F275C93007B3768 /* ShowWalletService+GET.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA744391F275C93007B3768 /* ShowWalletService+GET.swift */; };
+		9EA7443C1F275E78007B3768 /* DLUserWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA7443B1F275E78007B3768 /* DLUserWallet.swift */; };
+		9EA744401F27A00E007B3768 /* DLFundTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA7443F1F27A00E007B3768 /* DLFundTransfer.swift */; };
+		9EA744421F27A033007B3768 /* DLFundTransferResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA744411F27A033007B3768 /* DLFundTransferResponse.swift */; };
+		9EA744441F27B54B007B3768 /* FundTransferService+POST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA744431F27B54B007B3768 /* FundTransferService+POST.swift */; };
+		9EA744461F27CE99007B3768 /* TransactionHistoryService+GET.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA744451F27CE99007B3768 /* TransactionHistoryService+GET.swift */; };
+		9EA744481F27D221007B3768 /* DLTransactionHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA744471F27D221007B3768 /* DLTransactionHistory.swift */; };
+		9EA7444A1F28680E007B3768 /* DLTransactionHistories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA744491F28680E007B3768 /* DLTransactionHistories.swift */; };
+		9EA744521F28CD8C007B3768 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA744511F28CD8C007B3768 /* LoginViewController.swift */; };
+		9EA744541F28CDC4007B3768 /* HomeTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA744531F28CDC4007B3768 /* HomeTableTableViewController.swift */; };
+		9EA744561F28ECB5007B3768 /* RegisterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA744551F28ECB5007B3768 /* RegisterTableViewController.swift */; };
+		9EA7445A1F2909C7007B3768 /* SendMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA744591F2909C7007B3768 /* SendMoneyViewController.swift */; };
+		9EA7445C1F291A44007B3768 /* TransactionHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA7445B1F291A44007B3768 /* TransactionHistoryTableViewController.swift */; };
+		9EA7445E1F291C15007B3768 /* ShowWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA7445D1F291C15007B3768 /* ShowWalletViewController.swift */; };
+		9EA744601F29C3E9007B3768 /* DLCreateWalletResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA7445F1F29C3E9007B3768 /* DLCreateWalletResponse.swift */; };
+		9EA744621F2A1252007B3768 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA744611F2A1252007B3768 /* Extension+String.swift */; };
+		9EA744641F2A13C4007B3768 /* AlertView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA744631F2A13C4007B3768 /* AlertView+Helper.swift */; };
+		9EA744661F2A3DAB007B3768 /* DLErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA744651F2A3DAB007B3768 /* DLErrorResponse.swift */; };
+		9EB552D61F26229600B5A111 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB552D51F26229600B5A111 /* AppDelegate.swift */; };
+		9EB552DB1F26229600B5A111 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EB552D91F26229600B5A111 /* Main.storyboard */; };
+		9EB552DD1F26229600B5A111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EB552DC1F26229600B5A111 /* Assets.xcassets */; };
+		9EB552E01F26229600B5A111 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EB552DE1F26229600B5A111 /* LaunchScreen.storyboard */; };
+		9EB552F51F262B9E00B5A111 /* CreateAccountService+POST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB552EE1F262B9E00B5A111 /* CreateAccountService+POST.swift */; };
+		9EB552F71F262B9E00B5A111 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB552F21F262B9E00B5A111 /* AppConstants.swift */; };
+		9EB552F81F262B9E00B5A111 /* DLRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB552F41F262B9E00B5A111 /* DLRegister.swift */; };
+		9EB552FA1F262C3500B5A111 /* LoginService+POST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB552F91F262C3500B5A111 /* LoginService+POST.swift */; };
+		BE4D5775C114BC8132A5CBE5 /* Pods_DarwinLabsMachineTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12FE8559C331CDB7D2130B92 /* Pods_DarwinLabsMachineTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12FE8559C331CDB7D2130B92 /* Pods_DarwinLabsMachineTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarwinLabsMachineTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		457C31FFEC5920533EC50408 /* Pods-DarwinLabsMachineTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarwinLabsMachineTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-DarwinLabsMachineTest/Pods-DarwinLabsMachineTest.release.xcconfig"; sourceTree = "<group>"; };
+		9EA744311F2633EB007B3768 /* DLUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLUser.swift; sourceTree = "<group>"; };
+		9EA744331F26355B007B3768 /* DLLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLLogin.swift; sourceTree = "<group>"; };
+		9EA744351F2668C6007B3768 /* CreateWalletService+POST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CreateWalletService+POST.swift"; sourceTree = "<group>"; };
+		9EA744371F266D7B007B3768 /* Login+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Login+Helpers.swift"; sourceTree = "<group>"; };
+		9EA744391F275C93007B3768 /* ShowWalletService+GET.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ShowWalletService+GET.swift"; sourceTree = "<group>"; };
+		9EA7443B1F275E78007B3768 /* DLUserWallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLUserWallet.swift; sourceTree = "<group>"; };
+		9EA7443F1F27A00E007B3768 /* DLFundTransfer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLFundTransfer.swift; sourceTree = "<group>"; };
+		9EA744411F27A033007B3768 /* DLFundTransferResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLFundTransferResponse.swift; sourceTree = "<group>"; };
+		9EA744431F27B54B007B3768 /* FundTransferService+POST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FundTransferService+POST.swift"; sourceTree = "<group>"; };
+		9EA744451F27CE99007B3768 /* TransactionHistoryService+GET.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TransactionHistoryService+GET.swift"; sourceTree = "<group>"; };
+		9EA744471F27D221007B3768 /* DLTransactionHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLTransactionHistory.swift; sourceTree = "<group>"; };
+		9EA744491F28680E007B3768 /* DLTransactionHistories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLTransactionHistories.swift; sourceTree = "<group>"; };
+		9EA744511F28CD8C007B3768 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9EA744531F28CDC4007B3768 /* HomeTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableTableViewController.swift; sourceTree = "<group>"; };
+		9EA744551F28ECB5007B3768 /* RegisterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterTableViewController.swift; sourceTree = "<group>"; };
+		9EA744591F2909C7007B3768 /* SendMoneyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendMoneyViewController.swift; sourceTree = "<group>"; };
+		9EA7445B1F291A44007B3768 /* TransactionHistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionHistoryTableViewController.swift; sourceTree = "<group>"; };
+		9EA7445D1F291C15007B3768 /* ShowWalletViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowWalletViewController.swift; sourceTree = "<group>"; };
+		9EA7445F1F29C3E9007B3768 /* DLCreateWalletResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLCreateWalletResponse.swift; sourceTree = "<group>"; };
+		9EA744611F2A1252007B3768 /* Extension+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
+		9EA744631F2A13C4007B3768 /* AlertView+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AlertView+Helper.swift"; sourceTree = "<group>"; };
+		9EA744651F2A3DAB007B3768 /* DLErrorResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLErrorResponse.swift; sourceTree = "<group>"; };
+		9EB552D21F26229600B5A111 /* DarwinLabsMachineTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarwinLabsMachineTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EB552D51F26229600B5A111 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9EB552DA1F26229600B5A111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9EB552DC1F26229600B5A111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EB552DF1F26229600B5A111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9EB552E11F26229600B5A111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EB552EE1F262B9E00B5A111 /* CreateAccountService+POST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CreateAccountService+POST.swift"; sourceTree = "<group>"; };
+		9EB552F21F262B9E00B5A111 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		9EB552F41F262B9E00B5A111 /* DLRegister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLRegister.swift; sourceTree = "<group>"; };
+		9EB552F91F262C3500B5A111 /* LoginService+POST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LoginService+POST.swift"; sourceTree = "<group>"; };
+		DD19AF30607769927C3A3636 /* Pods-DarwinLabsMachineTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarwinLabsMachineTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DarwinLabsMachineTest/Pods-DarwinLabsMachineTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EB552CF1F26229600B5A111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4D5775C114BC8132A5CBE5 /* Pods_DarwinLabsMachineTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EB552C91F26229600B5A111 = {
+			isa = PBXGroup;
+			children = (
+				9EB552ED1F262B9E00B5A111 /* APIServices */,
+				9EB552EF1F262B9E00B5A111 /* Controller */,
+				9EB552F11F262B9E00B5A111 /* Helpers */,
+				9EB552F31F262B9E00B5A111 /* Model */,
+				9EB552D41F26229600B5A111 /* DarwinLabsMachineTest */,
+				9EB552D31F26229600B5A111 /* Products */,
+				FEE82ABEBE7EC0FFA478F168 /* Pods */,
+				D73880A86975BC23CEAB45E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9EB552D31F26229600B5A111 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EB552D21F26229600B5A111 /* DarwinLabsMachineTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EB552D41F26229600B5A111 /* DarwinLabsMachineTest */ = {
+			isa = PBXGroup;
+			children = (
+				9EB552D51F26229600B5A111 /* AppDelegate.swift */,
+				9EB552D91F26229600B5A111 /* Main.storyboard */,
+				9EB552DC1F26229600B5A111 /* Assets.xcassets */,
+				9EB552DE1F26229600B5A111 /* LaunchScreen.storyboard */,
+				9EB552E11F26229600B5A111 /* Info.plist */,
+			);
+			path = DarwinLabsMachineTest;
+			sourceTree = "<group>";
+		};
+		9EB552ED1F262B9E00B5A111 /* APIServices */ = {
+			isa = PBXGroup;
+			children = (
+				9EB552F91F262C3500B5A111 /* LoginService+POST.swift */,
+				9EB552EE1F262B9E00B5A111 /* CreateAccountService+POST.swift */,
+				9EA744351F2668C6007B3768 /* CreateWalletService+POST.swift */,
+				9EA744391F275C93007B3768 /* ShowWalletService+GET.swift */,
+				9EA744431F27B54B007B3768 /* FundTransferService+POST.swift */,
+				9EA744451F27CE99007B3768 /* TransactionHistoryService+GET.swift */,
+			);
+			path = APIServices;
+			sourceTree = "<group>";
+		};
+		9EB552EF1F262B9E00B5A111 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9EA744511F28CD8C007B3768 /* LoginViewController.swift */,
+				9EA744531F28CDC4007B3768 /* HomeTableTableViewController.swift */,
+				9EA744551F28ECB5007B3768 /* RegisterTableViewController.swift */,
+				9EA744591F2909C7007B3768 /* SendMoneyViewController.swift */,
+				9EA7445B1F291A44007B3768 /* TransactionHistoryTableViewController.swift */,
+				9EA7445D1F291C15007B3768 /* ShowWalletViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9EB552F11F262B9E00B5A111 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9EA744631F2A13C4007B3768 /* AlertView+Helper.swift */,
+				9EB552F21F262B9E00B5A111 /* AppConstants.swift */,
+				9EA744371F266D7B007B3768 /* Login+Helpers.swift */,
+				9EA744611F2A1252007B3768 /* Extension+String.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9EB552F31F262B9E00B5A111 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9EA744331F26355B007B3768 /* DLLogin.swift */,
+				9EA744311F2633EB007B3768 /* DLUser.swift */,
+				9EB552F41F262B9E00B5A111 /* DLRegister.swift */,
+				9EA7443B1F275E78007B3768 /* DLUserWallet.swift */,
+				9EA7443F1F27A00E007B3768 /* DLFundTransfer.swift */,
+				9EA744411F27A033007B3768 /* DLFundTransferResponse.swift */,
+				9EA744471F27D221007B3768 /* DLTransactionHistory.swift */,
+				9EA744491F28680E007B3768 /* DLTransactionHistories.swift */,
+				9EA7445F1F29C3E9007B3768 /* DLCreateWalletResponse.swift */,
+				9EA744651F2A3DAB007B3768 /* DLErrorResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D73880A86975BC23CEAB45E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12FE8559C331CDB7D2130B92 /* Pods_DarwinLabsMachineTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEE82ABEBE7EC0FFA478F168 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD19AF30607769927C3A3636 /* Pods-DarwinLabsMachineTest.debug.xcconfig */,
+				457C31FFEC5920533EC50408 /* Pods-DarwinLabsMachineTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EB552D11F26229600B5A111 /* DarwinLabsMachineTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EB552E41F26229600B5A111 /* Build configuration list for PBXNativeTarget "DarwinLabsMachineTest" */;
+			buildPhases = (
+				F1EFC8FCCAEEE00AE0881EFB /* [CP] Check Pods Manifest.lock */,
+				9EB552CE1F26229600B5A111 /* Sources */,
+				9EB552CF1F26229600B5A111 /* Frameworks */,
+				9EB552D01F26229600B5A111 /* Resources */,
+				00D61A1163175B33F6A6A87C /* [CP] Embed Pods Frameworks */,
+				6B5036F32D2DA2330CC1C8C5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarwinLabsMachineTest;
+			productName = DarwinLabsMachineTest;
+			productReference = 9EB552D21F26229600B5A111 /* DarwinLabsMachineTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EB552CA1F26229600B5A111 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Anil Kumar";
+				TargetAttributes = {
+					9EB552D11F26229600B5A111 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9EB552CD1F26229600B5A111 /* Build configuration list for PBXProject "DarwinLabsMachineTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EB552C91F26229600B5A111;
+			productRefGroup = 9EB552D31F26229600B5A111 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EB552D11F26229600B5A111 /* DarwinLabsMachineTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EB552D01F26229600B5A111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB552E01F26229600B5A111 /* LaunchScreen.storyboard in Resources */,
+				9EB552DD1F26229600B5A111 /* Assets.xcassets in Resources */,
+				9EB552DB1F26229600B5A111 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00D61A1163175B33F6A6A87C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DarwinLabsMachineTest/Pods-DarwinLabsMachineTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B5036F32D2DA2330CC1C8C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DarwinLabsMachineTest/Pods-DarwinLabsMachineTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1EFC8FCCAEEE00AE0881EFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EB552CE1F26229600B5A111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EA744621F2A1252007B3768 /* Extension+String.swift in Sources */,
+				9EA7444A1F28680E007B3768 /* DLTransactionHistories.swift in Sources */,
+				9EA744321F2633EB007B3768 /* DLUser.swift in Sources */,
+				9EA744461F27CE99007B3768 /* TransactionHistoryService+GET.swift in Sources */,
+				9EA7445C1F291A44007B3768 /* TransactionHistoryTableViewController.swift in Sources */,
+				9EA744341F26355B007B3768 /* DLLogin.swift in Sources */,
+				9EA744381F266D7B007B3768 /* Login+Helpers.swift in Sources */,
+				9EA744641F2A13C4007B3768 /* AlertView+Helper.swift in Sources */,
+				9EA744361F2668C6007B3768 /* CreateWalletService+POST.swift in Sources */,
+				9EB552D61F26229600B5A111 /* AppDelegate.swift in Sources */,
+				9EA744521F28CD8C007B3768 /* LoginViewController.swift in Sources */,
+				9EA7443A1F275C93007B3768 /* ShowWalletService+GET.swift in Sources */,
+				9EA744561F28ECB5007B3768 /* RegisterTableViewController.swift in Sources */,
+				9EA7445A1F2909C7007B3768 /* SendMoneyViewController.swift in Sources */,
+				9EA744601F29C3E9007B3768 /* DLCreateWalletResponse.swift in Sources */,
+				9EA744541F28CDC4007B3768 /* HomeTableTableViewController.swift in Sources */,
+				9EA744401F27A00E007B3768 /* DLFundTransfer.swift in Sources */,
+				9EB552F51F262B9E00B5A111 /* CreateAccountService+POST.swift in Sources */,
+				9EB552FA1F262C3500B5A111 /* LoginService+POST.swift in Sources */,
+				9EA744421F27A033007B3768 /* DLFundTransferResponse.swift in Sources */,
+				9EA744661F2A3DAB007B3768 /* DLErrorResponse.swift in Sources */,
+				9EA7445E1F291C15007B3768 /* ShowWalletViewController.swift in Sources */,
+				9EA7443C1F275E78007B3768 /* DLUserWallet.swift in Sources */,
+				9EA744441F27B54B007B3768 /* FundTransferService+POST.swift in Sources */,
+				9EB552F71F262B9E00B5A111 /* AppConstants.swift in Sources */,
+				9EA744481F27D221007B3768 /* DLTransactionHistory.swift in Sources */,
+				9EB552F81F262B9E00B5A111 /* DLRegister.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9EB552D91F26229600B5A111 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EB552DA1F26229600B5A111 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9EB552DE1F26229600B5A111 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EB552DF1F26229600B5A111 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EB552E21F26229600B5A111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9EB552E31F26229600B5A111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EB552E51F26229600B5A111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD19AF30607769927C3A3636 /* Pods-DarwinLabsMachineTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DarwinLabsMachineTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Pronto.DarwinLabsMachineTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9EB552E61F26229600B5A111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 457C31FFEC5920533EC50408 /* Pods-DarwinLabsMachineTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DarwinLabsMachineTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Pronto.DarwinLabsMachineTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EB552CD1F26229600B5A111 /* Build configuration list for PBXProject "DarwinLabsMachineTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB552E21F26229600B5A111 /* Debug */,
+				9EB552E31F26229600B5A111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EB552E41F26229600B5A111 /* Build configuration list for PBXNativeTarget "DarwinLabsMachineTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB552E51F26229600B5A111 /* Debug */,
+				9EB552E61F26229600B5A111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EB552CA1F26229600B5A111 /* Project object */;
+}
